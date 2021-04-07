@@ -47,6 +47,4 @@ def print_solution(solution: dict):
 
 if __name__ == '__main__':
     ans = find_anagram(input("What is the anagram? "))
-    print(ans[0][0], CUSTOM_WORDS[ans[0][0]])
-    print()
     print_solution(ans)
