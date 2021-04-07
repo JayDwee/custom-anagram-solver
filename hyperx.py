@@ -112,5 +112,9 @@ PRODUCTS = {
 
             # Eyewear
             "SPECTRE REACT": "HMC-GL-E03SM211",
-            "SPECTRE 1ST EDITION": "HMC-GL-E01ML114"
+            "SPECTRE 1ST EDITION": "HMC-GL-E01ML114",
+
+            # Best Device
+            "Mini Fridge": "HX-MF-PLEASE/UK"
+
             }
