@@ -1,7 +1,17 @@
+"""
+Due to this being a rush job for fun, don't expect the best results or anything... but it should work :D
+"""
+
+# replace this line for your own custom anagram words.
 from hyperx import PRODUCTS as CUSTOM_WORDS
 
 
 def find_anagram(hint: str):
+    """
+    Searches CUSTOM_WORDS keys to find an anagram of the hint
+    :param hint: The original anagram
+    :return: a dict of {number_wrong (lower=better): [words]}
+    """
     possible_ans = {}
     hint = hint.replace(" ", "")
     possible_prods = (CUSTOM_WORDS.keys())
@@ -24,6 +34,10 @@ def find_anagram(hint: str):
 
 
 def print_solution(solution: dict):
+    """
+    Prints the solution given by find_anagram in a quicker way to read
+    :param solution: The solution given by find_anagram
+    """
     for k in sorted(solution.keys()):
         print(k, "incorrect chars")
         for i in solution[k]:
