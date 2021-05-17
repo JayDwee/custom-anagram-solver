@@ -1,4 +1,6 @@
 # Custom Anagram Solver
+
+![image](https://user-images.githubusercontent.com/30408869/118545361-64b75280-b74e-11eb-93fe-eb909af3e142.png)
 Created for HXCI competitions. 
 
 ## Previous HXCI event code
